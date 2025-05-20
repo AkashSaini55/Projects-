@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+header .hp1 {
+    width: 200px;
+    position: relative;
+}
+
+header .hp1 h1 {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    width: 580px;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+header .hp2 {
+
+    width: 350px;
+}
+
+header .hp2 input {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+header .hp2 button {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+section {
+    height: 90%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+
+}
+
+section .sp1 {
+    position: relative;
+    bottom: 50px;
+}
+
+section .sp1 h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+section .sp1 h1 {
+    color: #ff7200;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+section .sp1 p {
+    color: rgba(255, 255, 255, 0.666);
+    line-height: 27px;
+    font-size: 22px;
+}
+
+section .sp1 button {
+    border: none;
+    outline: none;
+    padding: 10px 45px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #ff7200;
+    color: black;
+    cursor: pointer;
+}
+
+section form {
+    height: 450px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+    margin-right: 100px;
+
+}
+
+section form h4 {
+    background-color: #fff;
+    color: #e58435;
+    padding: 6px 20px;
+    width: 235px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 22px;
+}
+
+section form input {
+
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 235px;
+    padding-top: 20px;
+    height: 40px;
+    margin: 20px 0px;
+    background-color: transparent;
+    color: white;
+
+}
+
+section form input::placeholder {
+    color: #ffffffca;
+}
+
+section form button {
+    width: fit-content;
+    background-color: #ff7300;
+    color: black;
+    padding: 10px 100px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+section form .p1 {
+    text-align: center;
+    color: #ffffffb6;
+    margin-bottom: 10px;
+}
+
+section form .p1 a {
+    color: #e58435;
+}
+
+section form .p2 {
+    text-align: center;
+    color: #ffffffb6;
+    margin: 10px 0px;
+}
+
+section form .icon {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 38px;
+    font-weight: 200;
+    cursor: pointer;
+}

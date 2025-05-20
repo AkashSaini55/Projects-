@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 10px;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.img img {
+    height: auto;
+    width: 100%;
+
+}
+
+.img .tp h1 {
+    font-size: 3.4em;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img .tp p {
+    font-weight: 300;
+    font-size: 1.5em;
+    color: rgba(232, 235, 238, 0.9);
+}
+
+.img .tp {
+    width: 19.5%;
+    height: 28%;
+    border: 1px solid rgb(194, 190, 190);
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    padding: 1.2rem;
+}
+
+.img .nv {
+    border-radius: 3px;
+    min-width: 245px;
+    overflow: hidden;
+    background-color: rgb(221, 223, 225);
+    width: 17%;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 96%;
+    left: 41%;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding:10.2px 20px ; 
+    position: relative;
+}
+
+button::after{
+content:"" ;
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 0px;
+height: 4px;
+ background-color: rgb(153, 155, 156);
+transition: width 1s linear;
+}
+
+button:hover::after{
+    width: 100%;
+    background-color: black;
+     
+}
+
+.img .nv a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  
+    font-size: 1em;
+    border: none;
+    outline: none;
+    font-family: Verdana, sans-serif;
+}
+
+.img .nv button:hover {
+ background-color: rgb(153, 155, 156);
+    border-radius: 3px;
+   
+}
+
+.section1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.im {
+    width: 62%;
+    margin-top: 20px;
+}
+
+.im img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.im video {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+   width: 62%;
+   font-family: Verdana, sans-serif;
+ padding: 40px 25px;
+ background-color: #f1f1f1 ;
+ margin: 10px 0px;
+}
+
+form h2{
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+form p{
+    font-size: 15px;
+    line-height:1.5 ;
+    margin-bottom: 10px;
+}
+
+form .li{
+    margin-top: 18px;
+}
+form .li label{
+    font-size: 16px;
+}
+
+form .li input{
+    width: 100%;
+    padding: 12px;
+  outline: none;
+  border: 1px solid #b2b0b0d3;
+}
+
+form button{
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    padding:10px 0px;
+    background-color: #616161;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: whitesmoke;
+}
+
+form button:hover{
+background-color: #d6d1d1;
+cursor:pointer;
+}
+
+
+form p a{
+color: black;
+}
+
+
+

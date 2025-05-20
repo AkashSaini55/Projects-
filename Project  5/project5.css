@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/img.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container{
+    border: 2px solid rgba(255, 255, 255, .2);
+    width: 420px;
+    padding: 30px 40px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);   
+ }
+
+.container h1{
+    text-align: center;
+    font-size: 38px;
+    padding: 20px;
+}
+.container .part1{
+    width: 100%;
+    height: 50px;
+   position: relative;
+    margin: 30px 0px;
+
+
+}
+.container .part1 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 20px 45px 20px 20px;
+    
+}
+.container .part1 input::placeholder{
+    color: #fff;
+}
+
+.part1 i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.container .part2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    align-items: center;
+    color: #fff;
+
+}
+.container .part2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .part2 input{
+    margin-right:3px;
+    margin-top: 3px;
+    accent-color: white;
+    align-items: center;
+}
+
+.container .part2 a:hover{
+    text-decoration: underline;
+  }
+
+
+.container .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .container .part3{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0 15px;
+    color: #fff;
+
+  }
+
+  .container .part3 p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .container .part3 p a:hover{
+    text-decoration: underline;
+  }

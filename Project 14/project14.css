@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.body{
+display: flex;
+justify-content: space-evenly;
+background-color: #f1f1f1;
+padding: 20px 60px 5px 60px;
+}
+
+.section1 {
+    width: 30%;
+    background-color: white;
+    margin-right: 10px;
+    box-shadow: 1px 1px 15px rgb(161, 160, 160);
+    height: 1100px;
+}
+
+.section1 .im{
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+.section1 .im img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position:bottom;
+    
+}
+
+.section1 .im h2{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.section1 .part-1{
+width: 95%;
+border-bottom: 1px solid rgba(211, 207, 207, 0.66);
+ margin: 0px 10px;
+}
+
+.section1 .icon{
+    display: flex;
+    margin-top: 8px;
+}
+
+.section1 .icon i{
+    color: #009688;
+    font-size: 1.3rem;
+    margin: 8px 8px;
+}
+.section1 .icon p{
+    margin: 9px 2px;
+    font-size: .9rem;
+    color: rgb(75, 75, 75);
+}
+
+.section1 .skill{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 14px;
+}
+
+.section1 .skill b{
+    font-size: 1.2rem;
+    color: rgb(28, 27, 27);
+ 
+}
+
+.section1 .skill b i{
+    color: #009688;
+    margin-right: 15px;
+}
+
+
+.section1 .skill p{
+    margin-top: 15px ;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+
+.section1 .skill .bar{
+    margin-top: 20px;
+    width: 100%;
+    border-radius:50px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    background:  linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 90%, rgba(224, 223, 223, 0.711) 90%, rgba(224, 223, 223, 0.716) 100%);
+}
+
+.section1 .skill .bar:nth-child(4){
+    background: linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 80%, rgba(224, 223, 223, 0.711) 80%, rgba(224, 223, 223, 0.716) 100%);
+
+}
+.section1 .skill .bar:nth-child(6){
+    background: linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 70%, rgba(224, 223, 223, 0.711) 70%, rgba(224, 223, 223, 0.716) 100%);
+
+}
+.section1 .skill .bar:nth-child(8){
+    background: linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 50%, rgba(224, 223, 223, 0.711) 50%, rgba(224, 223, 223, 0.716) 100%);
+   margin-bottom: 40px;
+}
+
+.section1 .skill .lg .br{
+    margin-top: 20px;
+    width: 100%;
+    border-radius:50px;
+   height: 20px;
+    background: linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 100%, rgba(224, 223, 223, 0.711) 100%, rgba(224, 223, 223, 0.716) 100%);
+}
+
+.section1 .skill .br:nth-child(4){
+    background: linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 50%, rgba(224, 223, 223, 0.711) 50%, rgba(224, 223, 223, 0.716) 100%);
+}
+.section1 .skill .br:nth-child(6){
+    background: linear-gradient(to right, rgb(0, 150, 136) 0%,rgb(0, 150, 136) 30%, rgba(224, 223, 223, 0.711) 30%, rgba(224, 223, 223, 0.716) 100%);
+}
+
+.flax{
+    width: 67%;
+}
+
+.section2{
+    width: 100%;
+    height: 591px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgb(161, 160, 160);
+    padding: 40px 30px;
+    margin-bottom: 20px;
+}
+
+.section2 h1{
+    font-size: 1.9rem;
+    color: #757575;
+    font-weight: 400;
+}
+
+.section2 h1 i{
+    font-size: 2.2rem;
+    color: #009688;
+    margin-right: 10px;
+}
+
+.section2 .pro{
+    border-bottom: 1px solid rgba(189, 185, 185, 0.666);
+    margin-top: 30px;
+}
+
+.section2 .pro h3{
+    color: #686767;
+    font-weight: 500;
+}
+
+.section2 .pro p{
+    margin-top: 15px;
+    color: #009688;
+   
+}
+
+.section2 .pro p i{
+    margin-right: 15px;
+}
+.section2 .pro p span{
+   padding: 2px 5px;
+   font-size: 1.1rem;
+   color: white;
+   font-weight: 400;
+   border-radius: 4px;
+   background-color: #009688;
+}
+
+.section2 .pro p:last-child{
+    font-size:0.95rem ;
+    line-height:1.5;
+    margin: 15px 0px 30px 0px;
+    color: black;
+
+}
+
+.section3{
+    width: 100%;
+    height: 543px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgb(161, 160, 160);
+    padding: 40px 30px;
+    margin-bottom: 15px;
+}
+
+.section3 h1{
+    font-size: 1.9rem;
+    color: #757575;
+    font-weight: 400;
+}
+
+.section3 h1 i{
+    font-size: 2.2rem;
+    color: #009688;
+    margin-right: 10px;
+}
+
+.section3 .pro{
+    border-bottom: 1px solid rgba(189, 185, 185, 0.666);
+    margin-top: 30px;
+}
+
+.section3 .pro h3{
+    color: #686767;
+    font-weight: 500;
+}
+
+.section3 .pro p{
+    margin-top: 15px;
+    color: #009688;
+   
+}
+
+.section3 .pro p i{
+    margin-right: 15px;
+}
+.section3 .pro p span{
+   padding: 2px 5px;
+   font-size: 1.1rem;
+   color: white;
+   font-weight: 400;
+   border-radius: 4px;
+   background-color: #009688;
+}
+
+.section3 .pro p:last-child{
+    font-size:0.95rem ;
+    line-height:1.5;
+    margin: 15px 0px 30px 0px;
+    color: black;
+
+}
+
+footer{
+    background-color: #009688;
+    height: 140px;
+    padding: 15px 0x;
+    color: white;
+   text-align: center;
+}
+
+footer p{
+    padding: 20px 0px;
+
+}
+
+footer p a{
+    color: white;
+}

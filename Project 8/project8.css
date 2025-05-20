@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height: 100vh;
+    background-color:#d6dfee ;
+}
+.cr{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.cr .card{
+    height: 66%;
+    width: 23%;
+    background-color: #d7e0ef;
+    box-shadow: 1px 1px 1px 2px rgba(189, 186, 186, 0.716);
+    border-radius: 10px;
+    overflow: hidden;  
+}
+.cr .card .im img:first-child{
+    height: 180px;
+    width: 100%; 
+    position: relative;
+}
+.cr .card .im img:last-child{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left:700px;
+    top: 240px;
+    border-radius: 60px;
+}
+.cr .card .text{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(34, 33, 33, 0.752);
+    padding: 70px;
+    padding-bottom: 50px;
+}
+.cr .card .text p{
+    text-align: center;
+}
+.cr .card .icon
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 20px;
+}
+.cr .card .pr{
+    display: flex;
+   margin-top: 20px;
+   height: 55px;
+}
+.cr .card .pr .p1{
+    width: 50%;
+    height: 57px;
+    border: 1px solid rgba(158, 154, 154, 0.43);
+    text-align: center;
+}
+.bt{
+ height: 60px;
+ width: 100%;
+ display: flex;
+justify-content: center;
+margin-top: 2px;
+}
+.bt button{
+    width: 100%;
+    height: 60px;
+   background-color:rgba(58, 166, 58, 0.996);
+   border-radius: 0px 0px 4px 4px;
+   border: none;
+   outline: none;
+   font-size: 21px;
+   color: white;
+   padding-bottom: 5px;
+}
+
+
+
+
+

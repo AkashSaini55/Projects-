@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        html,
+        body {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        .section1 {
+            height: 100vh;
+            width: 100%;
+            background-color: #d0d4D5;
+        }
+
+        .upper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0PX 50PX;
+
+
+        }
+
+        .upper img {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            margin-right: 300px;
+        }
+
+        .upper2 {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            margin-left: 30px;
+        }
+
+        .upper2>ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .upper2>ul>li {
+            
+            margin-right: 50px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .upper2>ul>li:hover{
+            transform: scale(1.11);
+            cursor: pointer;
+        }
+
+        .upper3 i {
+            font-size: 25px;
+            font-weight: 500;
+            margin-left: 5px;
+            padding: 5px;
+           
+        }
+        .upper3 i:hover{
+            cursor: pointer;
+            transform: scale(1.11);    
+        }
+
+        .section2 {
+            width: 100%;
+            display: flex;
+            position: relative;
+            height: calc(100%-110px);
+        }
+
+        .liftside {
+
+            height: 100%;
+            width: 40%;
+            padding: 90px 60px;
+
+        }
+
+        .section2>div>h4 {
+            font-size: 21px;
+            font-weight: 300;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .section2>div>h1 {
+
+            font-size: 60px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            color: #000;
+        }
+
+        .section2>div>p {
+
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            color: #000;
+
+        }
+
+        .section2>div>button {
+            background-color: #000;
+            color: white;
+            border-radius: 0 40px 40px 40px;
+            padding: 12px 40px;
+            border: none;
+
+        }
+
+        .section3 {
+           
+            height: 100%;
+            width: 60%; 
+            white-space: nowrap;
+            overflow-x: auto;
+            padding: 110px 100px;
+        }
+
+        .section3::-webkit-scrollbar{
+            display: none;
+        }
+
+        .rightside {
+            width: 250px;
+            height: 370px;
+            box-shadow: 1px 5px 10px rgba(17, 0, 17, 0.3);
+            display: inline-block;
+            position: relative;
+            margin-right: 20px;
+            background-color: #1011;
+
+        }
+
+        .rightside:hover{
+            transform: scale(1.02);
+        }
+
+        .rightside img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            position: absolute;
+            bottom: 20%;
+        }
+
+        .rightside h4 {
+            font-size: 16px;
+            padding-left: 5px;
+            position: absolute;
+            bottom: 28%;
+            padding-left: 5px;
+        }
+
+        .ctg {
+            position: absolute;
+            bottom: 22%;
+            font-weight: 500;
+            padding-left: 5px;
+        }
+
+        .col {
+            position: absolute;
+            bottom: 16%;
+            padding-left: 5px;
+        }
+
+        .pr {
+            position: absolute;
+            font-weight: 600;
+            bottom: 8%;
+            padding-left: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="section1">
+        <div class="upper">
+
+            <div class="upper2">
+                <img src="img/nike-logo-0.png" alt="logo">
+                <ul>
+                    <li>home</li>
+                    <li>man</li>
+                    <li>woman</li>
+                    <li>collection</li>
+                    <li>contect</li>
+                </ul>
+
+
+            </div>
+
+            <div class="upper3">
+                <i class="ri-search-line"></i>
+                <i class="ri-shopping-cart-2-line"></i>
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="liftside">
+                <h4> explor limited edtion</h4>
+                <h1>nike limited edition</h1>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quo facilis laborum. Ipsam
+                    officia placeat sunt, similique nesciunt eum expedita ab quo doloremque facilis tenetur ipsa vel
+                    neque maiores voluptatum!</p>
+
+                <button>buy now</button>
+            </div>
+
+            <div class="section3">
+                <div class="rightside">
+                    <img src="IMG/nocta-glide-shoes.png" alt="SHOES">
+                    <h4>NOCta glide</h4>
+                    <p class="ctg">man's shoes</p>
+                    <p class="col">color</p>
+                    <p class="pr">buy 1 get all</p>
+                </div>
+                <div class="rightside">
+                    <img src="IMG/air-max-1-lx-shoes.png" alt="SHOES">
+                    <h4>air max 1</h4>
+                    <p class="ctg">man's shoes</p>
+                    <p class="col">color</p>
+                    <p class="pr">1$</p>
+                </div>
+                <div class="rightside">
+                    <img src="IMG/air-peg-2k5-shoes.png" alt="SHOES">
+                    <h4>air peg</h4>
+                    <p class="ctg">man's shoes</p>
+                    <p class="col">color</p>
+                    <p class="pr">1$</p>
+                </div>
+                <div class="rightside">
+                    <img src="IMG/lunar-roam-shoes.png" alt="SHOES">
+                    <h4>lunar roam</h4>
+                    <p class="ctg">man's shoes</p>
+                    <p class="col">color</p>
+                    <p class="pr">1$</p>
+                </div>
+                <div class="rightside">
+                    <img src="IMG/terminator-high-shoes.png" alt="SHOES">
+                    <h4>treminator high</h4>
+                    <p class="ctg">man's shoes</p>
+                    <p class="col">color</p>
+                    <p class="pr">1$</p>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
