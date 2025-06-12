@@ -1,0 +1,171 @@
+		* {
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+			font-family: "Poppins", sans-serif;
+		}
+
+		body{
+			width: 100%;
+			height: 100vh;
+			background:linear-gradient(135deg, #e3dbf6,#a99bf9);
+		}
+
+		.card {
+			background-color: transparent;
+			margin: 150px auto;
+			width: 360px;
+			height: 520px;
+			background-color: transparent;
+			perspective: 1000;
+		}
+
+		.card2 {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			transform-style: preserve-3d;
+			transition: transform 3s;
+		}
+
+		.card:hover .card2:hover {
+			transform: rotateY(180deg);
+		}
+
+		.front,
+		.back {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			backface-visibility: hidden;
+			border-radius: 10px;
+			box-shadow: 1px 1px 1px 2px rgba(189, 186, 186, 0.716);
+		}
+
+		.front {
+			background:linear-gradient(135deg,rgba(109,109,109,255), rgba(64,64,64,255), rgba(46,46,46,255));
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			padding: 60px 40px;
+		}
+
+		.front h2 {
+			font-weight: 500;
+			color: white;
+		}
+
+		p {
+			font-size: 13px;
+			color: #ccc;
+		}
+
+		button {
+			border: 1px solid white;
+			border-radius: 50px;
+			outline: none;
+			width: 120px;
+			color: white;
+			padding: 10px 20px;
+			background: transparent;
+			margin-top: 20px
+		}
+
+		.back {
+			background-color: white;
+			color: #333;
+			transform: rotateY(180deg);
+			padding: 20px 40px;
+		}
+
+		.back img {
+			width: 125px;
+		}
+
+		.back h1 {
+			font-size: 50px;
+			margin-bottom: 10px;
+			line-height: 55px;
+		}
+
+		.back h1 span {
+			font-weight: 400;
+		}
+
+		.back p {
+			color: #333;
+			font-size: 14px;
+		}
+
+		.back p span {
+			font-weight: 600;
+		}
+
+		.back .fl {
+			display: flex;
+			margin-top: 30px;
+			align-items: center;
+		}
+
+		.back .fl .bo {
+			flex: 1;
+			font-size: 12px;
+			color: #555;
+			text-align: center;
+			position: relative;
+		}
+
+		.bo::after {
+			content: "";
+			width: 1.5px;
+			height: 25px;
+			position: absolute;
+			background: #7800ad;
+			top: 5px;
+			right: 0px;
+		}
+
+		.bo:last-child:after {
+			display: none;
+		}
+
+		.back .ic button {
+			border: 0;
+			outline: 0;
+			border: 35px;
+			background-color: #7800ad;
+			font-size: 14px;
+			padding: 10px 25px;
+			margin-right: 17px;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		.back .ic {
+			margin-top: 20px;
+			display: flex;
+			align-items: center;
+		}
+
+		.back .ic a {
+			width: 40px;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+			margin: 0px 7px;
+			border-radius: 50%;
+			transform: translate(0px, 5px);
+		}
+
+		.back .ic a img {
+			width: 50%;
+		}
+
+		.back .ic a:hover {
+			transform: scale(1.1);
+		}
+
+		.back .ic button:hover {
+			transform: scale(1.1);
+		}
